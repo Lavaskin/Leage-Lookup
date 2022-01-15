@@ -3,5 +3,5 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:name="com.example.cs492final.SettingsFragment"
-    tools:context=".SettingsActivity" />
+    android:name="lavaskin.app.ll.SettingsFragment"
+    tools:context="lavaskin.app.ll.SettingsActivity" />

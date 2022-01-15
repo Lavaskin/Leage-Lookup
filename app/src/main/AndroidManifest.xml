@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cs492final">
+    package="com.app.ll">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,17 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CS492Final">
-        <activity android:name=".ChampDetailActivity"
-            android:parentActivityName=".ChampionListActivity"/>
+        <activity android:name="lavaskin.app.ll.ChampDetailActivity"
+            android:parentActivityName="lavaskin.app.ll.ChampionListActivity"/>
         <activity
-            android:name=".ChampionListActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="lavaskin.app.ll.ChampionListActivity"
+            android:parentActivityName="lavaskin.app.ll.MainActivity"
             android:launchMode="singleTop"/>
         <activity
-            android:name=".SettingsActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name="lavaskin.app.ll.SettingsActivity"
+            android:parentActivityName="lavaskin.app.ll.MainActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name="lavaskin.app.ll.MainActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
