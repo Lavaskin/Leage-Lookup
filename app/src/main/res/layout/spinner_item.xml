@@ -3,20 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
+
     <TextView
         android:id="@+id/tv_spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
+        android:textSize="24dp"
         android:gravity="start"
         android:textColor="@color/black"
-        android:paddingBottom="4dp"
-        />
+        android:paddingBottom="4dp" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"/>
-
 
 </LinearLayout>
 
